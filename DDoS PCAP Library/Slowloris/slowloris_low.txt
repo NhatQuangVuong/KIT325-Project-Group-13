@@ -1,0 +1,16 @@
+filename: slowloris_low.pcapng
+attack type: Slowloris
+tool: slowhttptest
+target IP: 192.168.1.4
+command: slowhttptest -c 100 -H -g -o slowloris_low -i 10 -r 10 -t GET -u http://192.168.1.4/ -x 24 -p 3
+start time: Oct 12, 2025 02:19:51.715698778 UTC
+end time: Oct 12, 2025 02:20:22.723197980 UTC
+duration (secs): 240
+level: low
+connections: 100 
+connections per second: 10
+capture interface: enp0s3
+detection signature: tcp.port == 80 && frame.len < 150
+observations: 
+
+
