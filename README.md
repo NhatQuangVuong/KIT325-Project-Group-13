@@ -7,4 +7,4 @@ The Archive of Work includes:
 - Group Presentation Slides.
 - PCAP Archive Library.
 
-NOTE: The SYN and UDP flood folders were too big to be committed to GitHub, so they are included in the MyLO Group submissions.
+NOTE: The SYN and UDP flood folders were too big to be committed to GitHub, so they are included in the MyLO Group and Individual submissions.
